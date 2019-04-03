@@ -24,20 +24,6 @@
     <div class="inner-wrapper">
       <div id="header-wrapper">
         <header id="header" class="header1">
-          <div class="top-bar">
-            <div class="container">
-              <ul class="contact-details">
-                <li>
-                  <span class="fa fa-phone"></span>Call Us +91 12345 67890
-                </li>
-                <li>
-                  <span class="fa fa-user"></span>Mail Us :
-                  <a href="mailto:admin@dreamspa.com" title="">admin@dreamspa.com</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- end top-bar -->
           <div class="container">
             <div id="logo">
               <a href="" title="Dream Spa">
@@ -46,21 +32,18 @@
             </div>
           </div>
           <div class="main-menu-wrapper">
-            <nav id="main-menu">
+            <nav id="main-menu" class="navbar navbar-expand-lg navbar-light bg-light">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
               <div class="container">
-                <ul id="menu-main-menu" class="menu">
+                <ul id="menu-main-menu" class="menu navbar-nav">
                   <li>
-                    <a href=""><i class="fa fa-home"></i>Giới thiệu</a>
+                    <a href="">Giới thiệu</a>
                   </li>
                   <li>
                     <a href="">Nâng mũi</a>
-                    <div class="megamenu-child-container">
-                      <ul class="sub-menu">
-                        <li>
-
-                        </li>
-                      </ul>
-                    </div>
                   </li>
                   <li>
                     <a href="">Cắt mí</a>
@@ -74,8 +57,15 @@
                   <li>
                     <a href="">Điều trị khác</a>
                   </li>
+                  <li>
+                    <a href="">Đặt lịch</a>
+                  </li>
+                  <li>
+                    <a href="">Liên hệ</a>
+                  </li>
                 </ul>
               </div>
+            </div>
             </nav>
           </div>
         </header>
