@@ -18,7 +18,7 @@
       <div class="footer-widgets-wrapper">
           <div class="container">
             <div class="row">
-              <div class="col-lg-3 col-md-4 col-sm-12 col-12 dt-sc-one-fourth first">
+              <div class="col-lg-3 col-md-4 col-sm-6 col-6 dt-sc-one-fourth first">
                 <aside id="nav_menu-2" class="widget widget_nav_menu">
                   <h3 class="widgettitle">Links</h3>
                   <div class="menu-footer-widget-menu-container">
@@ -45,7 +45,7 @@
                 </aside>
               </div>
 
-              <div class="col-lg-3 col-md-4  col-sm-12 col-12 dt-sc-one-fourth ">
+              <div class="col-lg-3 col-md-4  col-sm-6 col-6 dt-sc-one-fourth ">
                 <aside id="text-4" class="widget widget_text">
                   <h3 class="widgettitle">Services</h3>
                   <div class="textwidget">
@@ -60,7 +60,7 @@
                 </aside>
               </div>
 
-              <div class="col-lg-3 col-md-4  col-sm-12 col-12 dt-sc-one-fourth ">
+              <div class="col-lg-3 col-md-4  col-sm-6 col-6 dt-sc-one-fourth ">
                 <aside id="text-3" class="widget widget_text">
                   <h3 class="widgettitle">Social</h3>
                   <div class="textwidget">
@@ -73,12 +73,11 @@
                   </div>
                 </aside>
               </div>
-              <div class="col-lg-3 col-md-4  col-sm-12 col-12 dt-sc-one-fourth ">
+              <div class="col-lg-3 col-md-4  col-sm-6 col-6 dt-sc-one-fourth ">
                 <aside id="text-2" class="widget widget_text">
                   <h3 class="widgettitle">About</h3>
-                    <div class="textwidget"><img title="DreamSpa" alt="DreamSpa" src="<?php echo get_template_directory_uri() .'/media/images/logo.png' ?>">
-                    <div class="dt-sc-hr-invisible-small"> </div>
-                    <p> Cannot foresee the pain and trouble that are bound to who fail in their duty through weakness of will, which is the same and pain.   </p>
+                    <strong class="nameFooter">Thẩm Mỹ Viện Hướng Dương</strong>
+                    <p class="desc-footer">Với 20 năm kinh nghiệm cùng với đội ngũ PGS - TS - ThS - BS hàng đầu trong lĩnh vực phẫu thuật thẩm mỹ cùng đội ngũ y tá, điều dưỡng, chuyên viên chuyên nghiệp kết hợp với trang thiết bị máy móc công nghệ cao hiện đại nhât trên thị trường hiện nay sẽ mang đến cho bạn một vẻ đẹp hoàn hảo như ý.</p>
                   </div>
                 </aside>
                 </div>
@@ -87,23 +86,12 @@
         </div>
         <div class="copyright">
           <div class="container">
-            <div class="copyright-content">DreamSpa © 2016. Design by Design Themes</div>
+            <div class="copyright-content">Dev © 2019. Design by Design Themes</div>
           </div>
         </div>
     </footer>
   </div>
  </div>
- <style type="text/css">
- 	.wpcp-carousel-section.nav-vertical-center {
-	  padding: 0px;
-	}
-	.slick-next {
-		margin-right: 10px;
-	}
-	.slick-prev{
-		margin-left: 10px;
-	}
- </style>
 </div>
 </body>
 </html>
