@@ -24,13 +24,6 @@
     <div class="inner-wrapper">
       <div id="header-wrapper">
         <header id="header" class="header1">
-          <div class="container">
-            <div id="logo">
-              <a href="" title="Dream Spa">
-                <img class="normal_logo" src="<?php echo get_template_directory_uri() .'/media/images/logo.png' ?>" alt="Dream Spa" title="Dream Spa">
-              </a>
-            </div>
-          </div>
           <div class="main-menu-wrapper">
             <nav id="main-menu" class="navbar navbar-expand-lg navbar-light bg-light">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +31,15 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
               <div class="container">
+
                 <ul id="menu-main-menu" class="menu navbar-nav">
+                  <li>
+                    <div id="logo">
+                      <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Dream Spa">
+                        <img class="normal_logo" src="<?php echo get_template_directory_uri() .'/media/images/logo.png' ?>" alt="Dream Spa" title="Dream Spa">
+                      </a>
+                    </div>
+                  </li>
                   <li>
                     <a href="">Giới thiệu</a>
                   </li>
@@ -55,13 +56,13 @@
                     <a href="">Vóc dáng</a>
                   </li>
                   <li>
-                    <a href="">Điều trị khác</a>
-                  </li>
-                  <li>
                     <a href="">Đặt lịch</a>
                   </li>
                   <li>
-                    <a href="">Liên hệ</a>
+                    <a href="<?php echo esc_url( home_url( '/lien-he' ) ); ?>">Liên hệ</a>
+                  </li>
+                  <li>
+                    <a href="<?php echo esc_url( home_url( '/vi-tri' ) ); ?>">Vị trí</a>
                   </li>
                 </ul>
               </div>

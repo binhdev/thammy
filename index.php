@@ -16,10 +16,9 @@ get_header();
 ?>
 
 <div id="slider">
-	<?php echo do_shortcode('[sp_wpcarousel id="145"]'); ?>
+	<?php echo do_shortcode('[sp_wpcarousel id="18"]'); ?>
 </div>
 <section id="primary" class="content-full-width">
-  <div class="dt-sc-hr-invisible "></div>
   <div class="fullwidth-section skin-white">
     <div class="container">
       <div class="border-title aligncenter">
@@ -91,7 +90,7 @@ get_header();
   </div>
 
   <div class="slide-album container">
-		 <?php echo do_shortcode( '[sp_wpcarousel id="146"]' ); ?>
+		 <?php echo do_shortcode( '[sp_wpcarousel id="22"]' ); ?>
 	</div>
 
   <div class="fullwidth-section">
