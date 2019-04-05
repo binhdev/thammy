@@ -10,9 +10,17 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
+	<section class="title-section">
+    <div class="title-wrapper">
+      <div class="container">
+        <div class="border-title aligncenter">
+            <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+            <h6>Tôn vinh vẻ đẹp tự nhiên - Hoàn hảo đến từng đường nét</h6>
+        </div>
+      </div>
+    </div>
+	</section>
+	<div class="clear"></div>
 
 	<?php thammy_post_thumbnail(); ?>
 
