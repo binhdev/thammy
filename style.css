@@ -695,6 +695,9 @@ a:hover {
   background-color: #fff;
 }
 /*Menu style*/
+.primary-menu{
+  margin: 0 auto;
+}
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
