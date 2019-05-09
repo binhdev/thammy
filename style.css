@@ -639,6 +639,7 @@ a:hover {
   padding-left: 20px;
   margin-bottom: 10px;
   color: #333;
+  display: inline-block;
 }
 .listSer li::before {
   position: absolute;
@@ -692,6 +693,38 @@ a:hover {
 .map-border{
   padding: 5px;
   background-color: #fff;
+}
+/*Menu style*/
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-item:hover>.dropdown-menu {
+  display: block;
+}
+ul li{
+list-style-type:none;
+display: inline;
+}
+
+.navbar-nav .nav-link{display:inline-block;}
+
+.ml-auto {display:inline-block!important;}
+
+.dropdown>.dropdown-toggle:active {
+  pointer-events: none;
+}
+.dropdown-item {
+    display: inline-block;
+    padding: 0px 25px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #685e58;
+    text-transform: uppercase;
+}
+.dropdown-item:hover {
+    color: #1a237e;
 }
 /**
 * Small screen
