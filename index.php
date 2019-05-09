@@ -16,7 +16,7 @@ get_header();
 ?>
 
 <div id="slider">
-	<?php echo do_shortcode('[sp_wpcarousel id="18"]'); ?>
+	<?php echo do_shortcode('[sp_wpcarousel id="5"]'); ?>
 </div>
 <section id="primary" class="content-full-width">
   <div class="fullwidth-section skin-white">
@@ -90,7 +90,7 @@ get_header();
   </div>
 
   <div class="slide-album container">
-		 <?php echo do_shortcode( '[sp_wpcarousel id="22"]' ); ?>
+		 <?php echo do_shortcode( '[sp_wpcarousel id="12"]' ); ?>
 	</div>
 
   <div class="fullwidth-section">
@@ -107,7 +107,7 @@ get_header();
             </div>
             <h2>Tạo hình mắt</h2>
             <div class="image">
-              <img width="200px" height="200px" src="<?php echo get_template_directory_uri() .'/media/images/X1.jpg' ?>" alt="" title="">
+              <img width="200px" height="200px" src="<?php echo get_template_directory_uri() .'/media/images/x1.jpg' ?>" alt="" title="">
             </div>
             <ul class="listSer">
               <li>Kết quả thẩm mỹ tự nhiên, đẹp tinh tế.</li>
@@ -125,7 +125,7 @@ get_header();
             </div>
             <h2>Tạo hình mũi S-Line</h2>
             <div class="image">
-              <img width="200px" height="200px"  src="<?php echo get_template_directory_uri() .'/media/images/X2.jpg' ?>" alt="" title="">
+              <img width="200px" height="200px"  src="<?php echo get_template_directory_uri() .'/media/images/x2.jpg' ?>" alt="" title="">
             </div>
             <ul class="listSer">
               <li>Sở hữu sống mũi như mỹ nhân Hàn Quốc.</li>
@@ -143,7 +143,7 @@ get_header();
             </div>
             <h2>Thẫm mỹ tạo hình môi</h2>
             <div class="image">
-              <img width="200px" height="200px" src="<?php echo get_template_directory_uri() .'/media/images/X3.jpg' ?>" alt="" title="">
+              <img width="200px" height="200px" src="<?php echo get_template_directory_uri() .'/media/images/x3.jpg' ?>" alt="" title="">
             </div>
             <ul class="listSer">
               <li>Tạo hình môi đẹp “đúng chuẩn” HOT-TREND!</li>
@@ -161,7 +161,7 @@ get_header();
             </div>
             <h2>Tạo hình Cằm V-Line</h2>
             <div class="image">
-              <img width="200px" height="200px" src="<?php echo get_template_directory_uri() .'/media/images/X4.jpg' ?>" alt="" title="">
+              <img width="200px" height="200px" src="<?php echo get_template_directory_uri() .'/media/images/x4.jpg' ?>" alt="" title="">
             </div>
             <ul class="listSer">
               <li>Phương pháp được nhiều người sử dụng.</li>

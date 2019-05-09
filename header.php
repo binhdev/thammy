@@ -41,19 +41,54 @@
                     </div>
                   </li>
                   <li>
-                    <a href="">Giới thiệu</a>
+                    <a href="">
+                      Giới thiệu
+                    </a>
                   </li>
-                  <li>
-                    <a href="">Nâng mũi</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Cắt mí
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Tạo hình mắt 2 mí</a>
+                      <a class="dropdown-item" href="#">Lấy mỡ và da thừa mi mắt dưới</a>
+                      <a class="dropdown-item" href="#">Phẫu thuật nâng lông mày</a>
+                    </ul>
                   </li>
-                  <li>
-                    <a href="">Cắt mí</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Nâng mũi
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Nâng sống mũi bằng vật liệu nhân tạo</a>
+                      <a class="dropdown-item" href="#">Nâng sống mũi Hàn Quốc S-line</a>
+                      <a class="dropdown-item" href="#">Thu gọn cánh mũi</a>
+                      <a class="dropdown-item" href="#">Thu gọn đầu mũi</a>
+                    </ul>
                   </li>
-                  <li>
-                    <a href="">Hàm mặt</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Khuôn mặt
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Tạo hình môi</a>
+                      <a class="dropdown-item" href="#">Tạo hình cằm V-line</a>
+                      <a class="dropdown-item" href="#">Tạo má lúm đồng tiền</a>
+                      <a class="dropdown-item" href="#">Tạo hình gò má</a>
+                      <a class="dropdown-item" href="#">Căng da mặt - cổ</a>
+                      <a class="dropdown-item" href="#">Phẩu thuật tạo hình tai vểnh</a>
+                      <a class="dropdown-item" href="#">Phẩu thuật sứt môi</a>
+                    </ul>
                   </li>
-                  <li>
-                    <a href="">Vóc dáng</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Phẫu thuật khác
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Phẩu thuật sứa sẹo</a>
+                      <a class="dropdown-item" href="#">Phẩu thuật trị tận gốc hôi nách</a>
+                      <a class="dropdown-item" href="#">Xóa nốt ruồi, mụn thịt</a>
+                    </ul>
                   </li>
                   <li>
                     <a href="">Đặt lịch</a>
