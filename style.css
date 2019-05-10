@@ -171,7 +171,7 @@ ul {
 }
 #main-menu ul.menu > li > a {
   display: inline-block;
-  padding: 0px 25px;
+  padding: 0px 10px;
   margin: 0px;
   font-size: 14px;
   font-weight: bold;
@@ -716,13 +716,12 @@ display: inline;
 .dropdown>.dropdown-toggle:active {
   pointer-events: none;
 }
-.dropdown-item {
-    display: inline-block;
-    padding: 0px 25px;
+.dropdown-item > a {
+    display: block;
+    padding: 5px 10px;
     margin: 0px;
     font-size: 14px;
     font-weight: bold;
-    line-height: 50px;
     color: #685e58;
     text-transform: uppercase;
 }
@@ -735,4 +734,3 @@ display: inline;
 @media (max-width: 992px) {
 
 }
-
