@@ -258,7 +258,7 @@ class WPDocs_Walker_Nav_Menu extends Walker_Nav_Menu {
         $attributes .= ! empty( $item->target )     ? ' target="' . esc_attr( $item->target     ) .'"' : '';
         $attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
         $attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
-        $attributes .= ' class=" ' . ( $depth > 0 ? 'sub-menu-link' : 'nav-link dropdown-toggle' ) . '"';
+        $attributes .= ' class=" ' . ( $depth > 0 ? 'sub-menu-link' : 'nav-link' ) . '"';
 
         // Build HTML output and pass through the proper filter.
         $item_output = sprintf( '%1$s<a%2$s>%3$s%4$s%5$s</a>%6$s',

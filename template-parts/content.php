@@ -9,24 +9,16 @@
 
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
-
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
-				<?php
-				thammy_posted_on();
-				thammy_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
+	<section class="title-section">
+    <div class="title-wrapper">
+      <div class="container">
+        <div class="border-title aligncenter">
+            <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+            <h6>Tôn vinh vẻ đẹp tự nhiên - Hoàn hảo đến từng đường nét</h6>
+        </div>
+      </div>
+    </div>
+	</section>
 
 	<?php thammy_post_thumbnail(); ?>
 
@@ -44,15 +36,10 @@
 			),
 			get_the_title()
 		) );
-
-		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'thammy' ),
-			'after'  => '</div>',
-		) );
 		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php thammy_entry_footer(); ?>
+		<?php //thammy_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
